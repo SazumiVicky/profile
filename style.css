@@ -1,85 +1,89 @@
 body {
-  height: 100vh;
-  width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #6E39E7;
-  overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6E39E7;
+    overflow: hidden;
 }
 .container {
-  height: 260px;
-  width: 220px;
-  padding: 24px 18px 18px;
-  background: #f8f9fd;
-  border-radius: 8px;
-  text-align: center;
+    height: 260px;
+    width: 220px;
+    padding: 24px 18px 18px;
+    background: #f8f9fd;
+    border-radius: 8px;
+    text-align: center;
 }
 profile .image {
-  position: relative;
-  width: 70px;
-  height: 70px;
-  margin: 24px auto 0;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 24px auto 0;
 }
-.profile .image .circle-1, .profile .image .circle-2 {
-  position: absolute;
-  box-sizing: border-box;
-  width: 78px;
-  height: 78px;
-  top: -4px;
-  left: -4px;
-  border-width: 1.2px;
-  border-style: solid;
-  border-color: #6E39E7 #6E39E7 #6E39E7 transparent;
-  border-radius: 50%;
-  transition: all 1.5s ease-in-out;
+.profile .image .circle-1,
+.profile .image .circle-2, {
+    position: absolute;
+    box-sizing: border-box;
+    width: 78px;
+    height: 78px;
+    top: -4px;
+    left: -4px;
+    border-width: 1.2px;
+    border-style: solid;
+    border-color: #6E39E7 #6E39E7
+                  #6E39E7 transparent;
+    border-radius: 50%;
+    transition: all 1.5s ease-in-out;
 }
 profile .image .circle-2 {
-  width: 86px;
-  height: 86px;
-  top: -8px;
-  left: -8px;
-  border-color: #6E39E7 transparent #6E39E7 #6E39E7;
+    width: 86px;
+    height: 86px;
+    top: -8px;
+    left: -8px;
+    border-color: #6E39E7 transparent
+                  #6E39E7 #6E39E7;
 }
 .profile .image img {
-  display: block;
-  border-radius: 50%;
-  background: #F5E8DF;
+    display: block;
+    border-radius: 50%;
+    background: #F5E8DF;
 }
 .profile .image:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
-.profile .image:hover .circle-1, .profile .image:hover .circle-2 {
-  transform: rotate(360deg);
+.profile .image:hover .circle-1,
+.profile .image:hover .circle-2 {
+    transform: rotate(360deg);
 }
 .profile .image:hover .circle-2 {
-  transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 .profile .name {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 28px auto 8px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 28px auto 8px;
 }
 .profile .job {
-  font-size: 16px;
-  color: #6F6F6F;
+    font-size: 16px;
+    color: #6F6F6F;
 }
 .btn {
-  width: 100%;
-  height: 48px;
-  padding: 2px 16px;
-  margin: 30px auto;
-  background: #6E39E7;
-  border: 2px solid #FFF;
-  border-radius: 20px;
-  font-size: 16px;
-  font-weight: 500;
-  box-sizing: border-box;
-  transition: all 0.3s ease-in-out;
-  color: #FFF;
+    width: 100%;
+    height: 48px;
+    padding: 2px 16px;
+    margin: 30px auto;
+    background: #6E39E7;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    color: #FFF;
 }
 .btn:hover {
-  background: #6E39E7;
-  color: #fff;
+    background: #6E39E7;
+    color: #fff;
 }
